@@ -8,4 +8,4 @@ jobs:
       - name: check server-info
         run: lsb_release -a
       - name: display wording
-        run: echo hello ${{ github.actor }
+        run: echo hello ${{ github.actor }}
